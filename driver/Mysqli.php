@@ -2,7 +2,10 @@
     
     /**
      * Mysqli db driver
-     * Part of database class
+     * Can be used independently or along with the database package
+     * @package     Database
+     * @category    Database
+     * @author      Shameer
      */
 
     class Driver_Mysqli {
@@ -367,5 +370,4 @@
 
     }
 
-    # Close class definition
 ?>

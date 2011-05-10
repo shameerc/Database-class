@@ -8,12 +8,15 @@
      * format (given below). This will help us incase if we need a dbal to be
      * integrated to the system
      * 
-     * @package Database
-     * @category Database
-     * @author Shameer
+     * @package     Database
+     * @category    Database
+     * @author      Shameer
      */
 
-    //Default dsn values as given in the config file
+    // Default dsn values as given in the config file
+    // The application must either include the config file 
+    // with the db connection information or, should set it
+    // using factory method
     $GLOBALS['_default_dsn'] =  array('dbhost'  => DB_HOST,
                                       'phptype' => DB_TYPE,
                                       'password'=> DB_PASS,
